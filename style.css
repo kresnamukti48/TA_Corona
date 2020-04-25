@@ -1,0 +1,162 @@
+/* Navbar */
+.navbar{
+	position: relative;
+	z-index: 1;
+
+}
+.navbar-brand{
+
+	font-family: Viga;
+	font-size: 32px;
+
+}
+
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 32px;
+
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+.tombol{
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+/*jumbotron*/
+.jumbotron{
+	background-image: url(aset/bgcorona.jpg);
+	background-size: cover;
+	height: 640px;
+	margin-top: -75px; 
+	text-align: center;
+	position: relative;
+}
+.jumbotron .container{
+	z-index: 1;
+	position: relative;
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1 ), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0.7);
+}
+.jumbotron .display-4{
+	color: white;
+	margin-top: 150px;
+	font-weight: 300;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0.7);
+	font-size: 62px;
+	margin-bottom: 50px;
+}
+.jumbotron .display-4 span{
+	font-weight: 600;
+}
+
+/*panel*/
+.info-panel{
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 5);
+	border-radius: 12px;
+	margin-top: -100px;
+	background-color: white;
+	padding: 30px;
+
+}
+
+.info-panel h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	
+}
+
+/*profile*/
+.profile{
+	margin-top: 100px;
+	width: 75%;
+	height: 75%;
+}
+
+.profile h3{
+	font-size: 52px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-left: 25px;
+
+}
+
+
+.profile p{
+	font-size: 18px;
+	margin-left: 25px;
+	color: #acacac;
+
+}
+
+
+.body_login{
+	font-family: sans-serif;
+	background-image: url(aset/bglogin.jpg);
+	background-size: cover;
+}
+ 
+h1{
+	text-align: center;
+	font-weight: 100;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: rgb(209, 197, 197);
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #0b54dd;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.profile_login{
+    text-align: center;
+}
+ 
